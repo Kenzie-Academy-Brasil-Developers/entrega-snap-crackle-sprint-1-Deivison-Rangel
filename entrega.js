@@ -20,9 +20,9 @@ function snapCrackle(maxValue){
             resultado+=`${i}, `
         }
         
-        
     }
-  console.log(resultado)
+    console.log(resultado)
+    return resultado
 }
 
 // TAREFA BONUS //
@@ -68,6 +68,6 @@ function snapCracklePrime(maxValue){
     
     }
    console.log(resultado)
-    
+   return resultado
     
 }
